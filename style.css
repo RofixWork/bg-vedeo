@@ -1,0 +1,75 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, .6);
+}
+.navbar-brand img{
+    height: 2rem;
+}
+
+.bg-vedeo{
+    position: relative;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.caption {
+    position: absolute;
+    top:38%;
+    width: 100%;
+    color: white;
+}
+.caption h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .8rem black;
+    letter-spacing: 4px;
+}
+.caption h3{
+    font-size: 1.8;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: .1rem .1rem .5rem black;
+    padding: 1% 0 2% 0;
+}
+.caption .btn{
+    border-radius: 0;
+    border-width: medium;
+    padding: 10px 15px;
+}
+
+@media (max-width:768px) {
+    .caption h1{
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        width: 100%;
+    }
+    .caption h3{
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding: 2% 0 3% 0;
+    }
+    .caption .btn{
+        padding:8px 12px;
+        font-size: 14px;
+    }
+}
+@media (max-width:600px) {
+    .caption h1{
+        font-size:1.1rem;
+        letter-spacing: 3px;
+        width: 100%;
+    }
+    .caption h3{
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding: 2% 0 3% 0;
+    }
+}
